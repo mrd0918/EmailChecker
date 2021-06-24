@@ -26,7 +26,7 @@ ws['E1'].value = 'Verified'
 ws['F1'].value = 'Date Leaked'
 i = 2
 for email in checklist:
-    api = "https://hacked-emails.com/api?q=" + email
+    api = "https://hacked-emails.com/api?q=" + str(email)
     user_agent = ['Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/534.4 (KHTML, like Gecko) Chrome/6.0.481.0 Safari/534.4',
                   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246',
                   'Mozilla/5.0 (X11; CrOS x86_64 8172.45.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.64 Safari/537.36',
